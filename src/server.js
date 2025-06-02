@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(compression());
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:4173', 'https://workhive-one.vercel.app', 'https://workhive-hy6o8pc84-sourav-pauls-projects-65fede6e.vercel.app'],
+    origin: ['http://localhost:5173', 'http://localhost:4173', 'https://workhive-one.vercel.app', 'https://workhive-hy6o8pc84-sourav-pauls-projects-65fede6e.vercel.app','http://13.49.59.35:3000'],
     credentials: true
 }));
 
